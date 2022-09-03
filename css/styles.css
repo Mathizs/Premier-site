@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #E3FDFD;
+  color: #40514E;
+}
+
+.logo {  
+  width: 20%;
+  height: auto;
+  margin-top: 200px;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  margin-top: 0px;
+  top: 30px;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+
+}
+
+hr {
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 4%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.6rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #E3FDFD;
+  position: relative;
+  padding-top: 100px;
+  line-height: 2;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-text { 
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.bottom-container {
+  background-color: #3e8e91;
+  color: #EAF6F6;
+  padding-top: 30px;
+  position: relative; 
+  top: 25px;
+  line-height: 5;
+}
+
+.footer-link {
+  color: #064649;
+  text-decoration: none;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 5;
+  margin: 10px 20px;
+}
+
+.btn {
+  border-radius: 8px;
+  background-color: #3e8e91;
+  color: white;
+  height: 40px;
+  border-color: black;
+  border-width: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background-color: #EAF6F6;
+  color: #064649;
+  border-color: #064649;
+  cursor: pointer;
+  transition: color 0.30s;
+  transition: border-color 0.30s;
+  transition: background-color 0.30s;
+}
+
+.footer-link:hover {
+  box-shadow: rgba(1, 1, 1, 0.7);
+
+}
